@@ -1,0 +1,2 @@
+[09-Dec-2022 06:19:17 UTC] PHP Warning:  require_once(/home/bygsdybfp6u6/public_html/apiTSv5/v1/asn1/vendor/autoload.php): failed to open stream: No such file or directory in /home/bygsdybfp6u6/public_html/apiTSv5/v1/class/generaConstancia.class.php on line 3
+[09-Dec-2022 06:19:17 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/bygsdybfp6u6/public_html/apiTSv5/v1/asn1/vendor/autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/bygsdybfp6u6/public_html/apiTSv5/v1/class/generaConstancia.class.php on line 3

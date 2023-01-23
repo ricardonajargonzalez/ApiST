@@ -1,0 +1,138 @@
+[02-Dec-2022 14:09:51 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ';' or ',' in /home/bygsdybfp6u6/public_html/apiTSv1/v1/asn1/index.php on line 16
+[02-Dec-2022 14:10:24 UTC] PHP Fatal error:  Uncaught FG\ASN1\Exception\ParserException: ASN.1 Parser Exception at offset 2: Content length 65 exceeds remaining data length 64 in /home/bygsdybfp6u6/public_html/apiTSv1/v1/asn1/vendor/fgrosse/phpasn1/lib/ASN1/ASNObject.php:350
+Stack trace:
+#0 /home/bygsdybfp6u6/public_html/apiTSv1/v1/asn1/vendor/fgrosse/phpasn1/lib/ASN1/Construct.php(171): FG\ASN1\ASNObject::parseContentLength('0A\x02\x01\x01010\r\x06\t`\x86H\x01...', 2)
+#1 /home/bygsdybfp6u6/public_html/apiTSv1/v1/asn1/vendor/fgrosse/phpasn1/lib/ASN1/ASNObject.php(233): FG\ASN1\Construct::fromBinary('0A\x02\x01\x01010\r\x06\t`\x86H\x01...', 2)
+#2 /home/bygsdybfp6u6/public_html/apiTSv1/v1/asn1/index.php(11): FG\ASN1\ASNObject::fromBinary('0A\x02\x01\x01010\r\x06\t`\x86H\x01...')
+#3 {main}
+  thrown in /home/bygsdybfp6u6/public_html/apiTSv1/v1/asn1/vendor/fgrosse/phpasn1/lib/ASN1/ASNObject.php on line 350
+[02-Dec-2022 14:10:27 UTC] PHP Fatal error:  Uncaught FG\ASN1\Exception\ParserException: ASN.1 Parser Exception at offset 2: Content length 65 exceeds remaining data length 64 in /home/bygsdybfp6u6/public_html/apiTSv1/v1/asn1/vendor/fgrosse/phpasn1/lib/ASN1/ASNObject.php:350
+Stack trace:
+#0 /home/bygsdybfp6u6/public_html/apiTSv1/v1/asn1/vendor/fgrosse/phpasn1/lib/ASN1/Construct.php(171): FG\ASN1\ASNObject::parseContentLength('0A\x02\x01\x01010\r\x06\t`\x86H\x01...', 2)
+#1 /home/bygsdybfp6u6/public_html/apiTSv1/v1/asn1/vendor/fgrosse/phpasn1/lib/ASN1/ASNObject.php(233): FG\ASN1\Construct::fromBinary('0A\x02\x01\x01010\r\x06\t`\x86H\x01...', 2)
+#2 /home/bygsdybfp6u6/public_html/apiTSv1/v1/asn1/index.php(11): FG\ASN1\ASNObject::fromBinary('0A\x02\x01\x01010\r\x06\t`\x86H\x01...')
+#3 {main}
+  thrown in /home/bygsdybfp6u6/public_html/apiTSv1/v1/asn1/vendor/fgrosse/phpasn1/lib/ASN1/ASNObject.php on line 350
+[02-Dec-2022 14:13:33 UTC] PHP Fatal error:  Uncaught FG\ASN1\Exception\ParserException: ASN.1 Parser Exception at offset 2: Content length 65 exceeds remaining data length 64 in /home/bygsdybfp6u6/public_html/apiTSv1/v1/asn1/vendor/fgrosse/phpasn1/lib/ASN1/ASNObject.php:350
+Stack trace:
+#0 /home/bygsdybfp6u6/public_html/apiTSv1/v1/asn1/vendor/fgrosse/phpasn1/lib/ASN1/Construct.php(171): FG\ASN1\ASNObject::parseContentLength('0A\x02\x01\x01010\r\x06\t`\x86H\x01...', 2)
+#1 /home/bygsdybfp6u6/public_html/apiTSv1/v1/asn1/vendor/fgrosse/phpasn1/lib/ASN1/ASNObject.php(233): FG\ASN1\Construct::fromBinary('0A\x02\x01\x01010\r\x06\t`\x86H\x01...', 2)
+#2 /home/bygsdybfp6u6/public_html/apiTSv1/v1/asn1/index.php(14): FG\ASN1\ASNObject::fromBinary('0A\x02\x01\x01010\r\x06\t`\x86H\x01...')
+#3 {main}
+  thrown in /home/bygsdybfp6u6/public_html/apiTSv1/v1/asn1/vendor/fgrosse/phpasn1/lib/ASN1/ASNObject.php on line 350
+[02-Dec-2022 14:13:36 UTC] PHP Fatal error:  Uncaught FG\ASN1\Exception\ParserException: ASN.1 Parser Exception at offset 2: Content length 65 exceeds remaining data length 64 in /home/bygsdybfp6u6/public_html/apiTSv1/v1/asn1/vendor/fgrosse/phpasn1/lib/ASN1/ASNObject.php:350
+Stack trace:
+#0 /home/bygsdybfp6u6/public_html/apiTSv1/v1/asn1/vendor/fgrosse/phpasn1/lib/ASN1/Construct.php(171): FG\ASN1\ASNObject::parseContentLength('0A\x02\x01\x01010\r\x06\t`\x86H\x01...', 2)
+#1 /home/bygsdybfp6u6/public_html/apiTSv1/v1/asn1/vendor/fgrosse/phpasn1/lib/ASN1/ASNObject.php(233): FG\ASN1\Construct::fromBinary('0A\x02\x01\x01010\r\x06\t`\x86H\x01...', 2)
+#2 /home/bygsdybfp6u6/public_html/apiTSv1/v1/asn1/index.php(14): FG\ASN1\ASNObject::fromBinary('0A\x02\x01\x01010\r\x06\t`\x86H\x01...')
+#3 {main}
+  thrown in /home/bygsdybfp6u6/public_html/apiTSv1/v1/asn1/vendor/fgrosse/phpasn1/lib/ASN1/ASNObject.php on line 350
+[02-Dec-2022 14:13:49 UTC] PHP Fatal error:  Uncaught FG\ASN1\Exception\ParserException: ASN.1 Parser Exception at offset 2: Content length 65 exceeds remaining data length 64 in /home/bygsdybfp6u6/public_html/apiTSv1/v1/asn1/vendor/fgrosse/phpasn1/lib/ASN1/ASNObject.php:350
+Stack trace:
+#0 /home/bygsdybfp6u6/public_html/apiTSv1/v1/asn1/vendor/fgrosse/phpasn1/lib/ASN1/Construct.php(171): FG\ASN1\ASNObject::parseContentLength('0A\x02\x01\x01010\r\x06\t`\x86H\x01...', 2)
+#1 /home/bygsdybfp6u6/public_html/apiTSv1/v1/asn1/vendor/fgrosse/phpasn1/lib/ASN1/ASNObject.php(233): FG\ASN1\Construct::fromBinary('0A\x02\x01\x01010\r\x06\t`\x86H\x01...', 2)
+#2 /home/bygsdybfp6u6/public_html/apiTSv1/v1/asn1/index.php(14): FG\ASN1\ASNObject::fromBinary('0A\x02\x01\x01010\r\x06\t`\x86H\x01...')
+#3 {main}
+  thrown in /home/bygsdybfp6u6/public_html/apiTSv1/v1/asn1/vendor/fgrosse/phpasn1/lib/ASN1/ASNObject.php on line 350
+[02-Dec-2022 14:14:22 UTC] PHP Fatal error:  Uncaught FG\ASN1\Exception\ParserException: ASN.1 Parser Exception at offset 2: Content length 65 exceeds remaining data length 64 in /home/bygsdybfp6u6/public_html/apiTSv1/v1/asn1/vendor/fgrosse/phpasn1/lib/ASN1/ASNObject.php:350
+Stack trace:
+#0 /home/bygsdybfp6u6/public_html/apiTSv1/v1/asn1/vendor/fgrosse/phpasn1/lib/ASN1/Construct.php(171): FG\ASN1\ASNObject::parseContentLength('0A\x02\x01\x01010\r\x06\t`\x86H\x01...', 2)
+#1 /home/bygsdybfp6u6/public_html/apiTSv1/v1/asn1/vendor/fgrosse/phpasn1/lib/ASN1/ASNObject.php(233): FG\ASN1\Construct::fromBinary('0A\x02\x01\x01010\r\x06\t`\x86H\x01...', 2)
+#2 /home/bygsdybfp6u6/public_html/apiTSv1/v1/asn1/index.php(14): FG\ASN1\ASNObject::fromBinary('0A\x02\x01\x01010\r\x06\t`\x86H\x01...')
+#3 {main}
+  thrown in /home/bygsdybfp6u6/public_html/apiTSv1/v1/asn1/vendor/fgrosse/phpasn1/lib/ASN1/ASNObject.php on line 350
+[02-Dec-2022 14:14:24 UTC] PHP Fatal error:  Uncaught FG\ASN1\Exception\ParserException: ASN.1 Parser Exception at offset 2: Content length 65 exceeds remaining data length 64 in /home/bygsdybfp6u6/public_html/apiTSv1/v1/asn1/vendor/fgrosse/phpasn1/lib/ASN1/ASNObject.php:350
+Stack trace:
+#0 /home/bygsdybfp6u6/public_html/apiTSv1/v1/asn1/vendor/fgrosse/phpasn1/lib/ASN1/Construct.php(171): FG\ASN1\ASNObject::parseContentLength('0A\x02\x01\x01010\r\x06\t`\x86H\x01...', 2)
+#1 /home/bygsdybfp6u6/public_html/apiTSv1/v1/asn1/vendor/fgrosse/phpasn1/lib/ASN1/ASNObject.php(233): FG\ASN1\Construct::fromBinary('0A\x02\x01\x01010\r\x06\t`\x86H\x01...', 2)
+#2 /home/bygsdybfp6u6/public_html/apiTSv1/v1/asn1/index.php(14): FG\ASN1\ASNObject::fromBinary('0A\x02\x01\x01010\r\x06\t`\x86H\x01...')
+#3 {main}
+  thrown in /home/bygsdybfp6u6/public_html/apiTSv1/v1/asn1/vendor/fgrosse/phpasn1/lib/ASN1/ASNObject.php on line 350
+[02-Dec-2022 14:15:11 UTC] PHP Fatal error:  Uncaught FG\ASN1\Exception\ParserException: ASN.1 Parser Exception at offset 2: Content length 65 exceeds remaining data length 64 in /home/bygsdybfp6u6/public_html/apiTSv1/v1/asn1/vendor/fgrosse/phpasn1/lib/ASN1/ASNObject.php:350
+Stack trace:
+#0 /home/bygsdybfp6u6/public_html/apiTSv1/v1/asn1/vendor/fgrosse/phpasn1/lib/ASN1/Construct.php(171): FG\ASN1\ASNObject::parseContentLength('0A\x02\x01\x01010\r\x06\t`\x86H\x01...', 2)
+#1 /home/bygsdybfp6u6/public_html/apiTSv1/v1/asn1/vendor/fgrosse/phpasn1/lib/ASN1/ASNObject.php(233): FG\ASN1\Construct::fromBinary('0A\x02\x01\x01010\r\x06\t`\x86H\x01...', 2)
+#2 /home/bygsdybfp6u6/public_html/apiTSv1/v1/asn1/index.php(21): FG\ASN1\ASNObject::fromBinary('0A\x02\x01\x01010\r\x06\t`\x86H\x01...')
+#3 {main}
+  thrown in /home/bygsdybfp6u6/public_html/apiTSv1/v1/asn1/vendor/fgrosse/phpasn1/lib/ASN1/ASNObject.php on line 350
+[02-Dec-2022 14:19:08 UTC] PHP Parse error:  syntax error, unexpected '$base64String2' (T_VARIABLE) in /home/bygsdybfp6u6/public_html/apiTSv1/v1/asn1/index.php on line 7
+[02-Dec-2022 14:19:14 UTC] PHP Parse error:  syntax error, unexpected '$base64String2' (T_VARIABLE) in /home/bygsdybfp6u6/public_html/apiTSv1/v1/asn1/index.php on line 7
+[02-Dec-2022 14:19:17 UTC] PHP Parse error:  syntax error, unexpected '$base64String2' (T_VARIABLE) in /home/bygsdybfp6u6/public_html/apiTSv1/v1/asn1/index.php on line 7
+[02-Dec-2022 14:19:35 UTC] PHP Parse error:  syntax error, unexpected '$base64String2' (T_VARIABLE) in /home/bygsdybfp6u6/public_html/apiTSv1/v1/asn1/index.php on line 7
+[02-Dec-2022 14:19:37 UTC] PHP Parse error:  syntax error, unexpected '$base64String2' (T_VARIABLE) in /home/bygsdybfp6u6/public_html/apiTSv1/v1/asn1/index.php on line 7
+[02-Dec-2022 14:20:51 UTC] PHP Fatal error:  Uncaught FG\ASN1\Exception\ParserException: ASN.1 Parser Exception at offset 2: Content length 65 exceeds remaining data length 64 in /home/bygsdybfp6u6/public_html/apiTSv1/v1/asn1/vendor/fgrosse/phpasn1/lib/ASN1/ASNObject.php:350
+Stack trace:
+#0 /home/bygsdybfp6u6/public_html/apiTSv1/v1/asn1/vendor/fgrosse/phpasn1/lib/ASN1/Construct.php(171): FG\ASN1\ASNObject::parseContentLength('0A\x02\x01\x01010\r\x06\t`\x86H\x01...', 2)
+#1 /home/bygsdybfp6u6/public_html/apiTSv1/v1/asn1/vendor/fgrosse/phpasn1/lib/ASN1/ASNObject.php(233): FG\ASN1\Construct::fromBinary('0A\x02\x01\x01010\r\x06\t`\x86H\x01...', 2)
+#2 /home/bygsdybfp6u6/public_html/apiTSv1/v1/asn1/index.php(21): FG\ASN1\ASNObject::fromBinary('0A\x02\x01\x01010\r\x06\t`\x86H\x01...')
+#3 {main}
+  thrown in /home/bygsdybfp6u6/public_html/apiTSv1/v1/asn1/vendor/fgrosse/phpasn1/lib/ASN1/ASNObject.php on line 350
+[02-Dec-2022 14:21:04 UTC] PHP Fatal error:  Uncaught FG\ASN1\Exception\ParserException: ASN.1 Parser Exception at offset 2: Content length 65 exceeds remaining data length 64 in /home/bygsdybfp6u6/public_html/apiTSv1/v1/asn1/vendor/fgrosse/phpasn1/lib/ASN1/ASNObject.php:350
+Stack trace:
+#0 /home/bygsdybfp6u6/public_html/apiTSv1/v1/asn1/vendor/fgrosse/phpasn1/lib/ASN1/Construct.php(171): FG\ASN1\ASNObject::parseContentLength('0A\x02\x01\x01010\r\x06\t`\x86H\x01...', 2)
+#1 /home/bygsdybfp6u6/public_html/apiTSv1/v1/asn1/vendor/fgrosse/phpasn1/lib/ASN1/ASNObject.php(233): FG\ASN1\Construct::fromBinary('0A\x02\x01\x01010\r\x06\t`\x86H\x01...', 2)
+#2 /home/bygsdybfp6u6/public_html/apiTSv1/v1/asn1/index.php(21): FG\ASN1\ASNObject::fromBinary('0A\x02\x01\x01010\r\x06\t`\x86H\x01...')
+#3 {main}
+  thrown in /home/bygsdybfp6u6/public_html/apiTSv1/v1/asn1/vendor/fgrosse/phpasn1/lib/ASN1/ASNObject.php on line 350
+[02-Dec-2022 14:34:34 UTC] PHP Fatal error:  Uncaught FG\ASN1\Exception\ParserException: ASN.1 Parser Exception at offset 2: Content length 65 exceeds remaining data length 62 in /home/bygsdybfp6u6/public_html/apiTSv1/v1/asn1/vendor/fgrosse/phpasn1/lib/ASN1/ASNObject.php:350
+Stack trace:
+#0 /home/bygsdybfp6u6/public_html/apiTSv1/v1/asn1/vendor/fgrosse/phpasn1/lib/ASN1/ASNObject.php(270): FG\ASN1\ASNObject::parseContentLength('FAC9A86DF387642...', 2)
+#1 /home/bygsdybfp6u6/public_html/apiTSv1/v1/asn1/index.php(27): FG\ASN1\ASNObject::fromBinary('FAC9A86DF387642...')
+#2 {main}
+  thrown in /home/bygsdybfp6u6/public_html/apiTSv1/v1/asn1/vendor/fgrosse/phpasn1/lib/ASN1/ASNObject.php on line 350
+[02-Dec-2022 14:34:51 UTC] PHP Fatal error:  Uncaught FG\ASN1\Exception\ParserException: ASN.1 Parser Exception at offset 2: Content length 65 exceeds remaining data length 62 in /home/bygsdybfp6u6/public_html/apiTSv1/v1/asn1/vendor/fgrosse/phpasn1/lib/ASN1/ASNObject.php:350
+Stack trace:
+#0 /home/bygsdybfp6u6/public_html/apiTSv1/v1/asn1/vendor/fgrosse/phpasn1/lib/ASN1/ASNObject.php(270): FG\ASN1\ASNObject::parseContentLength('FAC9A86DF387642...', 2)
+#1 /home/bygsdybfp6u6/public_html/apiTSv1/v1/asn1/index.php(27): FG\ASN1\ASNObject::fromBinary('FAC9A86DF387642...')
+#2 {main}
+  thrown in /home/bygsdybfp6u6/public_html/apiTSv1/v1/asn1/vendor/fgrosse/phpasn1/lib/ASN1/ASNObject.php on line 350
+[02-Dec-2022 14:36:46 UTC] PHP Fatal error:  Uncaught FG\ASN1\Exception\ParserException: ASN.1 Parser Exception at offset 2: Content length 107 exceeds remaining data length 86 in /home/bygsdybfp6u6/public_html/apiTSv1/v1/asn1/vendor/fgrosse/phpasn1/lib/ASN1/ASNObject.php:350
+Stack trace:
+#0 /home/bygsdybfp6u6/public_html/apiTSv1/v1/asn1/vendor/fgrosse/phpasn1/lib/ASN1/ASNObject.php(270): FG\ASN1\ASNObject::parseContentLength('RkFDOUE4NkRGMzg...', 2)
+#1 /home/bygsdybfp6u6/public_html/apiTSv1/v1/asn1/index.php(28): FG\ASN1\ASNObject::fromBinary('RkFDOUE4NkRGMzg...')
+#2 {main}
+  thrown in /home/bygsdybfp6u6/public_html/apiTSv1/v1/asn1/vendor/fgrosse/phpasn1/lib/ASN1/ASNObject.php on line 350
+[02-Dec-2022 14:36:50 UTC] PHP Fatal error:  Uncaught FG\ASN1\Exception\ParserException: ASN.1 Parser Exception at offset 2: Content length 107 exceeds remaining data length 86 in /home/bygsdybfp6u6/public_html/apiTSv1/v1/asn1/vendor/fgrosse/phpasn1/lib/ASN1/ASNObject.php:350
+Stack trace:
+#0 /home/bygsdybfp6u6/public_html/apiTSv1/v1/asn1/vendor/fgrosse/phpasn1/lib/ASN1/ASNObject.php(270): FG\ASN1\ASNObject::parseContentLength('RkFDOUE4NkRGMzg...', 2)
+#1 /home/bygsdybfp6u6/public_html/apiTSv1/v1/asn1/index.php(28): FG\ASN1\ASNObject::fromBinary('RkFDOUE4NkRGMzg...')
+#2 {main}
+  thrown in /home/bygsdybfp6u6/public_html/apiTSv1/v1/asn1/vendor/fgrosse/phpasn1/lib/ASN1/ASNObject.php on line 350
+[02-Dec-2022 14:37:44 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type FG\ASN1\Universal\T61String as array in /home/bygsdybfp6u6/public_html/apiTSv1/v1/asn1/index.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/bygsdybfp6u6/public_html/apiTSv1/v1/asn1/index.php on line 29
+[09-Dec-2022 05:45:01 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type FG\ASN1\Universal\T61String as array in /home/bygsdybfp6u6/public_html/apiTSv1/v1/asn1/index.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/bygsdybfp6u6/public_html/apiTSv1/v1/asn1/index.php on line 35
+[09-Dec-2022 05:45:24 UTC] PHP Notice:  Undefined variable: base64String2 in /home/bygsdybfp6u6/public_html/apiTSv1/v1/asn1/index.php on line 33
+[09-Dec-2022 05:45:24 UTC] PHP Fatal error:  Uncaught FG\ASN1\Exception\ParserException: ASN.1 Parser Exception at offset 0: Can not parse binary from data: Offset index larger than input size in /home/bygsdybfp6u6/public_html/apiTSv1/v1/asn1/vendor/fgrosse/phpasn1/lib/ASN1/ASNObject.php:207
+Stack trace:
+#0 /home/bygsdybfp6u6/public_html/apiTSv1/v1/asn1/index.php(34): FG\ASN1\ASNObject::fromBinary('')
+#1 {main}
+  thrown in /home/bygsdybfp6u6/public_html/apiTSv1/v1/asn1/vendor/fgrosse/phpasn1/lib/ASN1/ASNObject.php on line 207
+[09-Dec-2022 05:45:59 UTC] PHP Notice:  Undefined variable: base64String2 in /home/bygsdybfp6u6/public_html/apiTSv1/v1/asn1/index.php on line 33
+[09-Dec-2022 05:45:59 UTC] PHP Fatal error:  Uncaught FG\ASN1\Exception\ParserException: ASN.1 Parser Exception at offset 0: Can not parse binary from data: Offset index larger than input size in /home/bygsdybfp6u6/public_html/apiTSv1/v1/asn1/vendor/fgrosse/phpasn1/lib/ASN1/ASNObject.php:207
+Stack trace:
+#0 /home/bygsdybfp6u6/public_html/apiTSv1/v1/asn1/index.php(34): FG\ASN1\ASNObject::fromBinary('')
+#1 {main}
+  thrown in /home/bygsdybfp6u6/public_html/apiTSv1/v1/asn1/vendor/fgrosse/phpasn1/lib/ASN1/ASNObject.php on line 207
+[09-Dec-2022 05:46:09 UTC] PHP Notice:  Undefined variable: base64String2 in /home/bygsdybfp6u6/public_html/apiTSv1/v1/asn1/index.php on line 33
+[09-Dec-2022 05:46:09 UTC] PHP Fatal error:  Uncaught FG\ASN1\Exception\ParserException: ASN.1 Parser Exception at offset 0: Can not parse binary from data: Offset index larger than input size in /home/bygsdybfp6u6/public_html/apiTSv1/v1/asn1/vendor/fgrosse/phpasn1/lib/ASN1/ASNObject.php:207
+Stack trace:
+#0 /home/bygsdybfp6u6/public_html/apiTSv1/v1/asn1/index.php(34): FG\ASN1\ASNObject::fromBinary('')
+#1 {main}
+  thrown in /home/bygsdybfp6u6/public_html/apiTSv1/v1/asn1/vendor/fgrosse/phpasn1/lib/ASN1/ASNObject.php on line 207
+[09-Dec-2022 05:46:11 UTC] PHP Notice:  Undefined variable: base64String2 in /home/bygsdybfp6u6/public_html/apiTSv1/v1/asn1/index.php on line 33
+[09-Dec-2022 05:46:11 UTC] PHP Fatal error:  Uncaught FG\ASN1\Exception\ParserException: ASN.1 Parser Exception at offset 0: Can not parse binary from data: Offset index larger than input size in /home/bygsdybfp6u6/public_html/apiTSv1/v1/asn1/vendor/fgrosse/phpasn1/lib/ASN1/ASNObject.php:207
+Stack trace:
+#0 /home/bygsdybfp6u6/public_html/apiTSv1/v1/asn1/index.php(34): FG\ASN1\ASNObject::fromBinary('')
+#1 {main}
+  thrown in /home/bygsdybfp6u6/public_html/apiTSv1/v1/asn1/vendor/fgrosse/phpasn1/lib/ASN1/ASNObject.php on line 207
+[09-Dec-2022 05:46:54 UTC] PHP Notice:  Undefined variable: base64String2 in /home/bygsdybfp6u6/public_html/apiTSv1/v1/asn1/index.php on line 8
+[09-Dec-2022 05:46:54 UTC] PHP Fatal error:  Uncaught FG\ASN1\Exception\ParserException: ASN.1 Parser Exception at offset 0: Can not parse binary from data: Offset index larger than input size in /home/bygsdybfp6u6/public_html/apiTSv1/v1/asn1/vendor/fgrosse/phpasn1/lib/ASN1/ASNObject.php:207
+Stack trace:
+#0 /home/bygsdybfp6u6/public_html/apiTSv1/v1/asn1/index.php(34): FG\ASN1\ASNObject::fromBinary('')
+#1 {main}
+  thrown in /home/bygsdybfp6u6/public_html/apiTSv1/v1/asn1/vendor/fgrosse/phpasn1/lib/ASN1/ASNObject.php on line 207
